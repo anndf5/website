@@ -1,0 +1,96 @@
+body
+{
+    background: linear-gradient(to bottom, rgb(150, 217, 217),rgb(150, 217, 217, 0.2));
+    
+    text-align: center;
+    font-size: 1.10em;
+    font-family:'Oxygen', sans-serif
+}
+.title
+{
+    color: rgb(235, 183,50);
+    font-weight: 1000;
+}
+
+.subtitle
+{
+    color:rgb(235, 183, 50);
+}
+
+#info
+{
+    font-family: fantasy;
+}
+
+#table-one:hover
+{
+    color: silver;
+}
+
+
+.button:hover
+{
+    color: red;
+}
+
+.button:link
+{
+    color:darkblue;
+}
+
+.button:visited
+{
+    color:red;
+}
+
+hr ~ input:hover
+{
+    background: aqua;
+        
+}
+/*
+ul > li
+{
+    color: lightsteelblue;
+}
+
+ul li 
+{
+    color: slategray;
+}
+
+input[type="email"]:hover
+{
+    background: Blue;
+}
+*/
+
+#box
+{
+    width: 500px;
+    height: 500px;
+    
+    background: linear-gradient(45deg , rgb(123, 142, 237), rgb(34, 230, 57), rgb(255, 0, 0), rgb(107, 96, 156), rgba(230, 255, 69, 1));
+}
+
+#box2
+{
+    width: 500px;
+    height: 500px;
+
+    background: linear-gradient(to top right, rgb(255, 0, 0), rgb(255, 165, 0), rgb(255, 255, 0), rgb(0, 128, 0), rgb(0, 0, 255), rgb(75, 0, 130), rgb(238, 130, 238));
+}
+
+#box3
+{
+    width: 500px;
+    height: 500px;
+    
+    background: radial-gradient(circle,rgb(255, 0, 0), rgb(255, 165, 0), rgb(255, 255, 0), rgb(0, 128, 0), rgb(0, 0, 255), rgb(75, 0, 130), rgb(238, 130, 238))
+}
+
+.text
+{
+    font-style: italic;
+}
+
